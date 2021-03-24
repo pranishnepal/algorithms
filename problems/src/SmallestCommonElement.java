@@ -46,6 +46,7 @@ public class SmallestCommonElement {
      * @param elementToSearch: int: element to search for
      * @return: return True/False depending on the presence of `elementToSearch` in `currRow` array.
      */
+   
     public boolean binarySearch(@NotNull int currRow[], int elementToSearch){
         int lPtr = 0;
         int rPtr = currRow.length - 1;
